@@ -22,5 +22,5 @@ from .views import*
 
 urlpatterns = [
     # path('admin/', admin.site.urls),
-    path('home/<str:user>/<int:user1>',home)
+    path('home/<str:user>/<int:user1>/<int:user2>',home)
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
