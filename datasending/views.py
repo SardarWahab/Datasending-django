@@ -1,5 +1,5 @@
 from django.shortcuts import render
-def home(request,):
+def home(request):
     # context = {
     #     'name':user,
     #     'Roll':user1,

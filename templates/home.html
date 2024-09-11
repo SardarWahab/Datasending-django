@@ -9,10 +9,10 @@
 </head>
 <body>
     <h1>Hallo World</h1>
-    <form action="home/" method="post">
+    <form action="{% home-handle %}" method="post">
         <input type="text" name="username" id="">
         <input type="password"  name="password">
-        <input type="button" value="submit">
+        <button type="submit"> Submit</button>
     </form>
 </body>
 </html>
